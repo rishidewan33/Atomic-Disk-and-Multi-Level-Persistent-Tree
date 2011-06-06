@@ -1,0 +1,42 @@
+**********************************************
+**  All tests are completed when you see    **
+**  'PASSED ALL TESTS' at the end. Error    **
+**  statements are okay, their names should **
+**  explain them. They should all be        **
+**  related to disk failure testing     .   **
+**********************************************
+Formatting...This may take a second.
+Done formatting.
+testSizeOfDiskLists() passed
+testTransactionFunctionality() IAE correctly Triggered: 
+java.lang.IllegalArgumentException: Does not refer to a transaction on the Active Transaction List
+testTransactionFunctionality() PASSED
+toAndFromByteArrayWorks() PASSED 
+testParseLogBytes() PASSED
+testTransaction() PASSED
+testWriteBackList() PASSED.
+testWriteBackList() PASSED
+testTransactionClass() PASSED
+testCommitTransactions() PASSED
+Formatting...This may take a second.
+Done formatting.
+Right before testing recovery:
+CS372Midterm2Tests() PASSED
+testWriteBackList() PASSED.
+testLogManagement() PASSED.
+Formatting...This may take a second.
+Killing disk: 0.9945957 failureProb 0.0075
+Error received by callback tracker, result: 23955
+IOException from LogStatus.java; Because disk dead. OK.
+IOException in the WriteBackThread, thrown from startRequest. Cause: DEAD DISK
+WBThread caught java.io.IOException: IOException in the WriteBackThread, thrown from startRequest. Cause: DEAD DISK
+Done formatting.
+testRecovery PASSED
+Formatting...This may take a second.
+Done formatting.
+Killing disk: 0.99539226 failureProb 0.0075
+Error received by callback tracker, result: 23955
+Disk is dead
+megaTest() PASSED. Recovery SUCCESSFUL
+***********PASSED ALL TESTS************
+

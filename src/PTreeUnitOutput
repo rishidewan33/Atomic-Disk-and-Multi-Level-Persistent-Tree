@@ -1,0 +1,17 @@
+ ********************************************
+**           Testing PTree.java           **
+********************************************
+Formatting...This may take a second.
+Done formatting.
+testFreeList PASSED
+testFreeList2 PASSED
+testCreateTree PASSED
+testCreateTree2 PASSED
+Formatting...This may take a second.
+Done formatting.
+testWriteData() PASSED
+Formatting...This may take a second.
+Done formatting.
+testMultipleTreeWrites() PASSED
+ALL TESTS PASSED SUCCESFULLY
+Testing took: 0 minutes and 34.183 seconds.
